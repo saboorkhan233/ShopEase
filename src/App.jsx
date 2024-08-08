@@ -1,27 +1,23 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Signup from './components/Signup';
-import SignIn from './components/SignIn';
-import rocket from './assets/rocket.png';
+import React from "react";
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import Home from "./components/Home/Home";
+import SignIn from "./components/auth/SignIn";
+import Signup from "./components/auth/Signup";
 
 function App() {
   return (
     <Router>
-      <div className="container mt-3">
-        <div className="row">
-          <div className="col-md-5">
-            <Routes>
-              <Route path="/" element={<Navigate to="/signup" />} />
-              <Route path="/signup" element={<Signup />} />
-              <Route path="/signin" element={<SignIn />} />
-            </Routes>
-          </div>
-          <div className="col-md-7">
-            <img className="img-fluid w-100" src={rocket} alt="Rocket" />
-          </div>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/signin" element={<SignIn />} />
+      </Routes>
     </Router>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
-import {Textfield} from './Textfield';
+import {Textfield} from '../Textfield';
 import * as Yup from 'yup';
 
 const SignIn = () => {
