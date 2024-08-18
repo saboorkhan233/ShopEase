@@ -1,6 +1,9 @@
+@import 'flowbite/dist/flowbite.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+  padding: 10px;
+  border-radius: 20px;
   font-family: 'Roboto', sans-serif;
   }
 

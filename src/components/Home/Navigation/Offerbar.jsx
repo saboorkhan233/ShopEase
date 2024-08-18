@@ -32,7 +32,7 @@ const Offerbar = () => {
       >
         Select Outdoor furniture
       </Link>
-      <Typography variant="body1" sx={{ marginLeft: '5px', fontFamily: 'Poppins, sans-serif' }}>
+      <Typography variant="body1" sx={{ marginLeft: '5px', fontFamily: 'Poppins, sans-serif' , cursor: 'Pointer'}}>
         →
       </Typography>
     </Box>

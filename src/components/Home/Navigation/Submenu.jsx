@@ -17,7 +17,7 @@ const Submenu = () => {
       <Box sx={{ flexGrow: 0.1 }} />
 
       {/* Submenu Items */}
-      {['Furnture', 'Outdoor', 'Furnture', 'Outdoor' ,'Furnture', 'Outdoor',  'Furnture', 'Outdoor',  'Furnture', 'Outdoor',  'Furnture'].map((submenu, index) => (
+      {['Furniture', 'Outdoor', 'Furniture', 'Outdoor' ,'Furniture', 'Outdoor',  'Furniture', 'Outdoor',  'Furniture', 'Outdoor',  'Furniture'].map((submenu, index) => (
         <Typography
           key={index}
           variant="body1"
